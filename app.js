@@ -28,7 +28,7 @@ app.use(passport.session());
 
 
 
-mongoose.connect("mongodb+srv://admin-ante:Antekralj1324@cluster0.frorl.mongodb.net/todolistDB", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://admin-ante:Antekralj1324@cluster0.frorl.mongodb.net/benzinskaDB", { useNewUrlParser: true });
 mongoose.set("useCreateIndex", true);
 
 
