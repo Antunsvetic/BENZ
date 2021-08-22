@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Admin</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script type="text/javascript">
+
+      let stanjeBenzina = <%=stanjeBenzina%>;
+      if (stanjeBenzina < 250){
+      alert(" OBAVIJEST! Benzina ima manje od 250L !!!");
+    }
+
+    let stanjeDizela = <%=stanjeDizela%>;
+    if (stanjeDizela < 250){
+    alert(" OBAVIJEST! Disela ima manje od 250L !!!");
+  }
+
+  let stanjePlina = <%=stanjePlina%>;
+  if (stanjePlina < 250){
+  alert(" OBAVIJEST! Plina ima manje od 250L !!!");
+}
+
+let stanjeUNP = <%=stanjeUNP%>;
+if (stanjeUNP < 250){
+alert(" OBAVIJEST! UNP-a ima manje od 250L !!!");
+}
+
+
+  </script>
+  <style media="screen">
+  body{
+   background-color: #476072;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #0A1931;
+  }
+  h1{
+    text-align: center;
+
+  }
+
+  .logoutBtn {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+  }
+
+  .meni{
+    display: flex;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 90;
+  }
+  .Proizvod{
+    border-color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 8%;
+    background-image: url("Proizvod.png");
+    height: 230px;
+    width: 220px;
+    margin-right: 5%;
+  }
+
+  .set{
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 250px;
+  }
+  .set2{
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 250px;
+  }
+
+  .Forum{
+    border-color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 8%;
+    background-image: url("Forum.png");
+    height: 230px;
+    width: 220px;
+    margin-right: 5%;
+  }
+
+  .Raspored{
+    border-color: black;
+    border-radius: 8%;
+    background-image: url("Raspored.png");
+    height: 230px;
+    width: 220px;
+    margin-right: 5%;
+  }
+  .Kreiraj{
+    border-color: black;
+    border-radius: 8%;
+    background-image: url("Kreiraj.png");
+    height: 230px;
+    width: 220px;
+    margin-right: 5%;
+  }
+
+  .Agregati{
+    border-color: black;
+    border-radius: 8%;
+    background-image: url("Agregat.png");
+    height: 230px;
+    width: 220px;
+    margin-right: 5%;
+  }
+  .Statistika{
+    border-color: black;
+    border-radius: 8%;
+    background-image: url("Statistika.png");
+    height: 230px;
+    width: 220px;
+    margin-right: 5%;
+  }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1 id="title">Admin page</h1>
+  <div class="set">
+    <a role="button" class="Proizvod" href="/proizvodi">Proizvod</a>
+    <a role="button" class="Forum" href="/forum">Forum</a>
+    <a role="button" class="Raspored" href="/raspored">Raspored</a>
+  </div>
+  <div class="set2">
+    <a role="button" class="Kreiraj" href="/kreiraj">Kreiraj</a>
+    <a role="button" class="Agregati" href="/agregati">Agregati</a>
+    <a role="button" class="Statistika" href="/statistika">Djelatnici</a>
+    </div>
+
+    <form action="/logout" method="post">
+      <button type="submit" class="btn btn-outline-dark btn-md logoutBtn" name="button">Logout</button>
+    </form>
+
+
+
+</body>
+
+</html>

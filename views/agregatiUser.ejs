@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Agregati</title>
+
+    <style media="screen">
+    .IspisStanja{
+      margin-bottom: 45px;
+      background-color: black;
+    }
+
+    .CijenaDerivata{
+      background-color: black;
+    }
+
+    .DERIVATI{
+      margin-left: 20px;
+      color:white;
+      display: flex;
+    }
+
+    .Benzin{
+      background-color: #082032;
+      margin-left: 70px;
+    }
+
+    .Disel{
+      background-color: #2C394B;
+      margin-left: 70px;
+    }
+    .Plin{
+      background-color: #334756;
+      margin-left: 70px;
+    }
+    .UNP{
+      background-color: #FF4C29;
+      margin-left: 70px;
+    }
+    .slika{
+      width: 200px;
+      margin-left: 27px;
+      margin-right: 27px;
+      margin-bottom: 50px;
+    }
+
+    .Naslov{
+      font-weight: 100;
+      text-decoration: none solid rgb(68, 68, 68);
+      text-align: center;
+    }
+    body{
+      background-color: #57837B;
+    }
+    h1{
+      font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 33px;
+    letter-spacing: 3.2px;
+    word-spacing: 6px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+      text-align: center;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>AGREGATI</h1>
+
+    <div class="DERIVATI">
+
+      <div class="Benzin">
+        <h3 class="Naslov">BENZIN</h3>
+        <img class="slika" src="http://localhost:3000/Benzin.jpg" alt="Benzin">
+        <h4 class="IspisStanja"> Stanje: <%= users[0].stanje %> litara </h4>
+        <h4 class="CijenaDerivata"> Cijena: <%= users[0].cijena %> kn/l</h4>
+
+
+      </div>
+
+      <div class="Disel">
+        <h3 class="Naslov">DISEL</h3>
+        <img class="slika" src="http://localhost:3000/Disel.jpg" alt="Benzin">
+        <h4 class="IspisStanja"> Stanje: <%= users[1].stanje %> litara </h4>
+        <h4 class="CijenaDerivata"> Cijena: <%= users[1].stanje %> kn/l</h4>
+
+      </div>
+
+      <div class="Plin">
+        <h3 class="Naslov">PLIN</h3>
+        <img class="slika" src="http://localhost:3000/Plin.jpg" alt="Benzin">
+        <h4 class="IspisStanja"> Stanje: <%= users[2].stanje %> litara </h4>
+        <h4 class="CijenaDerivata"> Cijena: <%= users[2].cijena %> kn/l</h4>
+
+      </div>
+
+      <div class="UNP">
+        <h3 class="Naslov">UNP</h3>
+        <img class="slika" src="http://localhost:3000/UNP.jpg" alt="Benzin">
+        <h4 class="IspisStanja"> Stanje: <%= users[3].stanje %> litara </h4>
+        <h4 class="CijenaDerivata"> Cijena: <%= users[3].cijena %> kn/l</h4>
+
+      </div>
+    </div>
+  </body>
+
+</html>

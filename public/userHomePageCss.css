@@ -1,0 +1,91 @@
+body{
+ background-color: #E8F6EF;
+}
+
+.logoutBtn {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.meni{
+  display: flex;
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 90;
+}
+.Proizvod{
+  border-color: black;
+  border-radius: 8%;
+  background-image: url("Proizvod.png");
+  height: 230px;
+  width: 220px;
+  margin-right: 5%;
+}
+
+.set{
+  text-align: center;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 250px;
+}
+.set2{
+  text-align: center;
+  display: flex;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 250px;
+}
+h1{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: #0A1931;
+}
+.Forum{
+  border-color: black;
+  border-radius: 8%;
+  background-image: url("Forum.png");
+  height: 230px;
+  width: 220px;
+  margin-right: 5%;
+}
+
+.Raspored{
+  border-color: black;
+  border-radius: 8%;
+  background-image: url("Raspored.png");
+  height: 230px;
+  width: 220px;
+  margin-right: 5%;
+}
+.Prodaja{
+  border-color: black;
+  border-radius: 8%;
+  background-image: url("Prodaja.jpg");
+  height: 230px;
+  width: 220px;
+  margin-right: 5%;
+}
+
+.Agregati{
+  border-color: black;
+  border-radius: 8%;
+  background-image: url("Agregat.png");
+  height: 230px;
+  width: 220px;
+  margin-right: 5%;
+}
+.Statistika{
+  border-color: black;
+  border-radius: 8%;
+  background-image: url("Statistika.png");
+  height: 230px;
+  width: 220px;
+  margin-right: 5%;
+}

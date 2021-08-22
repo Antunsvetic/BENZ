@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Proiz_User</title>
+  <style>
+    .Naslov{
+  display: flex;
+  background-color: #11324D;
+}
+
+.nazad{
+  margin-left:700px;
+  margin-top: 30px;
+  color: white;
+}
+
+.mm{
+  font-family: "Arial Black", Gadget, sans-serif;
+ font-size: 25px;
+ letter-spacing: 3.6px;
+ word-spacing: 2px;
+color: #FDF5CA;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+.prva{
+  background-color: #C3BA85;
+}
+.druga{
+  background-color: #DAD5AB;
+}
+.treca{
+  background-color: #F0F0CB;
+}
+.cetvrta{
+  background-color: #FEFFE2;
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="Naslov">
+    <h1 class="mm">Proizvodi</h1>
+    <a role="button" class="nazad" href="/djelatnik">Nazad</a>
+  </div>
+
+  <div class="Naslov">
+    <h1 class="mm">Pića</h1>
+  </div>
+
+  <div class="Sokovi prva">
+    <span class="Artikl">Bezalkoholna pića</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[0].stanje %> </p>
+  </div>
+
+  <div class="Alkohol druga">
+    <span class="Artikl">Alkoholna pića</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[1].stanje%> </p>
+  </div>
+
+
+  <div class="Voda treca">
+    <span class="Artikl">Voda</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[2].stanje%> </p>
+  </div>
+
+  <div class="Naslov">
+    <h1 class="mm">Grickalice</h1>
+  </div>
+
+  <div class="Cips prva">
+    <span class="Artikl">Cips </span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[3].stanje%> </p>
+  </div>
+
+
+  <div class="Smoki druga">
+    <span class="Artikl">Smoki</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[4].stanje%> </p>
+  </div>
+
+
+  <div class="Stapici treca">
+    <span class="Artikl">Štapiči</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[5].stanje%> </p>
+
+  </div>
+
+  <div class="Keksi cetvrta">
+    <span class="Artikl">Keksi</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[6].stanje%> </p>
+  </div>
+
+  <div class="Naslov">
+    <h1 class="mm">Duhanski proizvodi</h1>
+  </div>
+
+  <div class="Cigarete prva">
+    <span class="Artikl">Cigarete</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[7].stanje%> </p>
+
+  </div>
+
+  <div class="Duhan druga">
+    <span class="Artikl">Duhan</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[8].stanje%> </p>
+  </div>
+
+  <div class="Filteri treca">
+    <span class="Artikl">Filteri</span>
+    <p class="Trenutacno_Stanje">Stanje: <%= proizvod[9].stanje%> </p>
+  </div>
+
+</body>
+
+</html>

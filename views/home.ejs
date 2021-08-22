@@ -1,0 +1,56 @@
+<%- include('header'); -%>
+
+
+
+    <h2>Web aplikacija za vođenje evidencije rada benzinske postaje</h2>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="/user" method="post">
+
+          <h1>Prijavi se</h1>
+          <div class="slikaDjelatnika">
+            <img src="Dje.png" alt="">
+          </div>
+
+          <span>DJELATNIK</span>
+          <input type="text" name="username" placeholder="Name" />
+          <input type="password" name="password" placeholder="Password" />
+          <button>Prijavi se</button>
+        </form>
+      </div>
+      <div class="form-container sign-in-container">
+        <form action="/admin" method="post">
+          <h1>Prijavi se</h1>
+          <div class="slikaAdmina">
+            <img src="slikaAdmina.png" alt="">
+          </div>
+
+          <span>ADMINISTRATOR</span>
+
+            <input type="text" name="username" placeholder="Name" />
+            <input type="password" name="password" placeholder="Password" />
+            <button type="submit" name="button">Prijavi se</button>
+
+
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Prijava administratora!</h1>
+            <p>Prijavi se na svoj profil i provjeri radnu evidenciju</p>
+            <button type="submit" class="ghost" id="signIn">Prijavi se</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>Djelatnik</h1>
+            <p>Prijavi se na svoj profil i provjeri radnu evidenciju</p>
+
+              <button type="submit" name="clicked" class="ghost" id="signUp">Prijavi se</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+<%- include('footer'); -%>

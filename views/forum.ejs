@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Benz_Forum</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <style>
+    .TekstUnos{
+      position: absolute;
+      width: 50%;
+      bottom: 0;
+      border: 3px solid #8AC007
+
+    }
+
+    .Objavi{
+      margin-top: 15px;
+      margin-left: 550px;
+    }
+
+    .Naslov{
+      background-color: #B5FFD9;
+      display: flex;
+    }
+    .Nazad{
+      position: absolute;
+      right: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class="Naslov">
+    <h1>Benz forum</h1>
+  </div>
+
+<% userSaKomentarom.forEach(function(user) { %>
+  <hr>
+    <h4><%= user.ime %></h4>
+    <p><%= user.komentar %></p>
+  <hr>
+<%});%>
+
+
+
+  <form class="TekstUnos" action="/forum" method="post">
+    <div class=" mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Unesite tekst:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" name="komentar" rows="3"></textarea>
+      <button type="submit" class="Objavi btn btn-primary">Objavi</button>
+    </div>
+  </form>
+
+</body>
+
+</html>

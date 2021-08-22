@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Djelatnik</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="userHomePageCss.css">
+</head>
+
+<body>
+
+  <h1 id="title">Djelatnik page</h1>
+  <div class="set">
+    <a role="button" class="Proizvod" href="/djelatnik/proizvodi">Proizvod</a>
+    <a role="button" class="Forum" href="/forum">Forum</a>
+    <a role="button" class="Raspored" href="/djelatnik/raspored">Raspored</a>
+  </div>
+  <div class="set2">
+    <a role="button" class="Prodaja" href="/djelatnik/prodaja">Prodaja</a>
+    <a role="button" class="Agregati" href="/djelatnik/agregati">Agregati</a>
+    <a role="button" class="Statistika" href="/djelatnik/<%= loggedUser %>">Moj profil</a>
+    </div>
+
+    <form action="/logout" method="post">
+      <button type="submit" class="btn btn-outline-dark btn-md logoutBtn" name="button">Logout</button>
+    </form>
+
+</body>
+
+</html>
