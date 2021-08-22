@@ -116,15 +116,15 @@ const Nedjelja = mongoose.model("Nedjelja", rasporedSchema);
 
 /////////////////////////////////// ADMIN LOGIN ///////////////////////////
 //////////////*************ADMIN REGISTER**********/////////////
-// User.register({username: "admin", role: "admin"}, "PASSWORD", function(err, user) {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     passport.authenticate("local") (req, res, function() {
-//         res.redirect("/");
-//     });
-//   }
-// });
+User.register({username: "admin", role: "admin"}, "cedevita", function(err, user) {
+  if (err) {
+    console.log(err);
+  } else {
+    passport.authenticate("local") (req, res, function() {
+        res.redirect("/");
+    });
+  }
+});
 
 
 app.get("/", function(req, res) {
