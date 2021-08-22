@@ -28,7 +28,7 @@ app.use(passport.session());
 
 
 
-mongoose.connect("mongodb+srv://admin-ante:Antekralj1324@cluster0.frorl.mongodb.net/benzinskaDB", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/benzinskaDB", { useNewUrlParser: true });
 mongoose.set("useCreateIndex", true);
 
 
@@ -116,15 +116,15 @@ const Nedjelja = mongoose.model("Nedjelja", rasporedSchema);
 
 /////////////////////////////////// ADMIN LOGIN ///////////////////////////
 //////////////*************ADMIN REGISTER**********/////////////
-User.register({username: "admin", role: "admin"}, "cedevita", function(err, user) {
-  if (err) {
-    console.log(err);
-  } else {
-    passport.authenticate("local") (req, res, function() {
-        res.redirect("/");
-    });
-  }
-});
+// User.register({username: "admin", role: "admin"}, "PASSWORD", function(err, user) {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     passport.authenticate("local") (req, res, function() {
+//         res.redirect("/");
+//     });
+//   }
+// });
 
 
 app.get("/", function(req, res) {
@@ -1388,14 +1388,6 @@ app.post("/logout", function(req, res){
 
 
 
-
-
-
-let port = process.env.PORT;
-if (port == null || port =="") {
-  port = 3000;
-}
-
-app.listen(port, function() {
+app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
