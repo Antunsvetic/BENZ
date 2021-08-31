@@ -1,8 +1,8 @@
 # BENZ
-Benzinska postaja
+Benzinska postaja!
 Iz ovog projekta se može vidjeti koliko znanja imam trenutno u backendu.
 
-username: admin
+username: admin,
 password: cedevita
 
     Web aplikacija za vođenje evidencije rada benzinske postaje uvodi jednostavnije rješenje za vođenjem posla benzinske postaje.
