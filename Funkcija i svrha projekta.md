@@ -2,6 +2,7 @@
 Benzinska postaja!
 Iz ovog projekta se može vidjeti moje trenutno znanje u backendu.
 
+
     Web aplikacija za vođenje evidencije rada benzinske postaje uvodi jednostavnije rješenje za vođenjem posla benzinske postaje.
     Aplikacija omogućuje pristup administratoru i djelatniku benzinske postaje, kreiranje djelatnika, uvid u stanje artikala te 
     njihovu promjenu, kreiranje rasporeda rada, promjenu stanja i cijene derivata, statistiku radnih sati i forum (zbog lakše komunikacije
@@ -10,4 +11,6 @@ Iz ovog projekta se može vidjeti moje trenutno znanje u backendu.
     alat Atom kao razvojno okruženje. Pomoću web aplikacije za vođenje evidencije rada svizaposlenici imaju točan uvid u cjelokupan rad
     benzinske postaje u bilo kojem trenutku što rezultira sa većom mobilnošću i lakšim pristupom podacima.
     Dependecies: express, ejs, body-parser, passport, mongoose, lodash
+    
+U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funkcionirati jer zahtjeva točno određenu bazu podataka.    
 
