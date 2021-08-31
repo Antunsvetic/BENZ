@@ -49,8 +49,15 @@ const User = mongoose.model("User", userSchema);
 
 passport.use(User.createStrategy());
 
-passport.serializeUser(User.serializeUser());
-passport.deserializeUser(User.deserializeUser());
+passport.serializeUser(function(user, done) {
+  done(null, user);
+});
+
+passport.deserializeUser(function(user, done) {
+  done(null, user);
+});
+// passport.serializeUser(User.serializeUser());
+// passport.deserializeUser(User.deserializeUser());
 
 
 ///////////// SCHEMA AGREGATI ////////////////
@@ -96,6 +103,12 @@ const forumSchema = {
 
 const Forum = mongoose.model("Forum", forumSchema);
 
+const newuser = new Forum({
+  ime:"Antonio",
+  komentar: "Bok ja sam Antonio!"
+})
+// newuser.save();
+
 /////////////*****************RASPORED SCHEMA *****************//////
 
 const rasporedSchema = {
@@ -112,19 +125,25 @@ const Petak = mongoose.model("Petak", rasporedSchema);
 const Subota = mongoose.model("Subota", rasporedSchema);
 const Nedjelja = mongoose.model("Nedjelja", rasporedSchema);
 
+const pon = new Nedjelja({
+  prva: "Ante",
+  druga:"leo",
+  treca:"mirko"
+});
 
+// pon.save();
 
 /////////////////////////////////// ADMIN LOGIN ///////////////////////////
 //////////////*************ADMIN REGISTER**********/////////////
 // User.register({username: "admin", role: "admin"}, "PASSWORD", function(err, user) {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     passport.authenticate("local") (req, res, function() {
-//         res.redirect("/");
-//     });
-//   }
-// });
+ // if (err) {
+ //  console.log(err);
+  // } else {
+  //   passport.authenticate("local") (req, res, function() {
+  //      res.redirect("/");
+  //   });
+ //}
+ //});
 
 
 app.get("/", function(req, res) {
