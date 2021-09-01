@@ -22,7 +22,7 @@ U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funk
 
 ![Benz-adminProizvodi](https://user-images.githubusercontent.com/85894362/131657043-15fb6cb8-8c96-4c23-9f09-918b296ebc99.png)
 
-![Benz-forum](https://user-images.githubusercontent.com/85894362/131657075-9feb92e2-4b19-427c-87b2-c7fe5cfb56de.png)
+![Benz-forum](https://user-images.githubusercontent.com/85894362/131658142-1cb78fec-0c03-40e3-b6e2-6f160e1a4e96.png)
 
 ![Benz-rasporedAdmin](https://user-images.githubusercontent.com/85894362/131657162-5cd7f13b-88cc-47b7-bac5-091c2ea0de56.png)
 
