@@ -34,7 +34,8 @@ U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funk
 
 ![Benz-djelatnikProdaja](https://user-images.githubusercontent.com/85894362/131657430-20878a5a-aed9-44f7-8e97-99044b227e65.png)
 
-![Benz-djelatnikProfil](https://user-images.githubusercontent.com/85894362/131657452-cdea8e86-9a6b-417a-8450-1f922c3312cb.png)
+![Benz-djelatnikMojProfil](https://user-images.githubusercontent.com/85894362/131657799-7344710f-369a-4f88-9730-7a55b9531a5a.png)
+
 
 
 
