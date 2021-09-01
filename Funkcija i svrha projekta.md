@@ -18,4 +18,7 @@ U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funk
 
 ![Benz-adminPage](https://user-images.githubusercontent.com/85894362/131656448-263219f7-be34-404b-be8c-e7cbe053f866.png)
 
+![Benz-djelatnikPage](https://user-images.githubusercontent.com/85894362/131656710-bdeefc13-1a04-4b7a-b64f-878fbebf6c05.png)
+
+
 
