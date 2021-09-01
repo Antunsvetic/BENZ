@@ -20,5 +20,22 @@ U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funk
 
 ![Benz-djelatnikPage](https://user-images.githubusercontent.com/85894362/131656710-bdeefc13-1a04-4b7a-b64f-878fbebf6c05.png)
 
+![Benz-adminProizvodi](https://user-images.githubusercontent.com/85894362/131657043-15fb6cb8-8c96-4c23-9f09-918b296ebc99.png)
+
+![Benz-forum](https://user-images.githubusercontent.com/85894362/131657075-9feb92e2-4b19-427c-87b2-c7fe5cfb56de.png)
+
+![Benz-rasporedAdmin](https://user-images.githubusercontent.com/85894362/131657162-5cd7f13b-88cc-47b7-bac5-091c2ea0de56.png)
+
+![Benz-kreirajDjelatnika](https://user-images.githubusercontent.com/85894362/131657253-e87073e8-ce65-4ca4-8cfe-00ca2c7a7e9a.png)
+
+![Benz-adminDjelatnici](https://user-images.githubusercontent.com/85894362/131657309-7a924c7d-75ab-4ef0-9643-2001c8f50870.png)
+
+![Benz-adminAgregati](https://user-images.githubusercontent.com/85894362/131657390-b4cdcc4f-0238-4ac5-9e6e-78c7603d51b6.png)
+
+![Benz-djelatnikProdaja](https://user-images.githubusercontent.com/85894362/131657430-20878a5a-aed9-44f7-8e97-99044b227e65.png)
+
+![Benz-djelatnikProfil](https://user-images.githubusercontent.com/85894362/131657452-cdea8e86-9a6b-417a-8450-1f922c3312cb.png)
+
+
 
 
