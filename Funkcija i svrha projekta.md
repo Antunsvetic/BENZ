@@ -12,5 +12,7 @@ Iz ovog projekta se može vidjeti moje trenutno znanje u backendu.
     benzinske postaje u bilo kojem trenutku što rezultira sa većom mobilnošću i lakšim pristupom podacima.
     Dependecies: express, ejs, body-parser, passport, mongoose, lodash
     
-U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funkcionirati jer zahtjeva točno određenu bazu podataka.    
+U slučaju pokušaja skidanja koda i testiranja, aplikacija nažalost neće funkcionirati jer zahtjeva točno određenu bazu podataka.
+
+![Benz-homePage](https://user-images.githubusercontent.com/85894362/131656322-677ecd7c-a055-4c1d-a424-48101d4bc198.png)
 
